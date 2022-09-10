@@ -22,8 +22,6 @@ body {
 }
 .cell {
   background-color: #E0E0E0;
-  height: 20px;
-  width: 20px;
   margin: 0;
 }
 .title {
@@ -31,11 +29,11 @@ body {
   color: #EEFF00;
 }
 .container {
-  margin: 5%;
+  margin: 2%;
   background-color: #9A6595;
   margin: 5%;
   display: flex;
-  height: 70vh;
+  height: 85vh;
   width: 30%;
   flex-direction: column;
   justify-content: center;
@@ -85,4 +83,16 @@ body {
   cursor: pointer;
   border: 4px solid #333;
   box-shadow: -307px 0 0 300px #EEFF00;
+}
+.colorPick{
+  border: 1px solid black;
+  height: 15px;
+  margin: 1.5% 0;
+  padding: 0;
+  background-color: black;
+  border-radius: 15px;
+  width: 300px;
+}
+::-webkit-color-swatch{
+  border:none;
 }
